@@ -15,17 +15,17 @@ Developed by Hyunjin, this FastAPI-based web application is inspired by Too Good
 ## Installation
 Follow these steps to set up the project on your operating system.
 ### On Windows
-1. **Clone the Repository**: `git clone https://github.com/hyunjin-9/too_good_to_go.git && cd food_app`
+1. **Clone the Repository**: `git clone https://github.com/hyunjin-9/too_good_to_go.git && cd too_good_to_go`
 2. **Create a Virtual Environment**: `python -m venv venv && venv\Scripts\activate`
 3. **Install Dependencies**: `pip install -r requirements.txt`
 4. **Run the Application**: `uvicorn app.main:app --reload` (visit `http://127.0.0.1:8000/docs`)
 ### On macOS
-1. **Clone the Repository**: `git clone https://github.com/hyunjin-9/too_good_to_go.git && cd food_app`
+1. **Clone the Repository**: `git clone https://github.com/hyunjin-9/too_good_to_go.git && cd too_good_to_go`
 2. **Create a Virtual Environment**: `python3 -m venv venv && source venv/bin/activate`
 3. **Install Dependencies**: `pip install -r requirements.txt`
 4. **Run the Application**: `uvicorn app.main:app --reload` (visit `http://127.0.0.1:8000/docs`)
 ### On Linux
-1. **Clone the Repository**: `git clone https://github.com/hyunjin-9/too_good_to_go.git && cd food_app`
+1. **Clone the Repository**: `git clone https://github.com/hyunjin-9/too_good_to_go.git && cd too_good_to_go`
 2. **Create a Virtual Environment**: `python3 -m venv venv && source venv/bin/activate`
 3. **Install Dependencies**: `pip install -r requirements.txt`
 4. **Run the Application**: `uvicorn app.main:app --reload` (visit `http://127.0.0.1:8000/docs`)
@@ -53,6 +53,6 @@ Follow these steps to set up the project on your operating system.
 - **JWT**: Secure authentication with OAuth2 password flow.
 
 ## Notes
-- **Database**: `food_app.db` auto-generates on first run.
+- **Database**: `too_good_to_go.db` auto-generates on first run.
 - **Default Super Admin**: `username: superadmin`, `password: superpass`.
 - **Security**: For production, use environment variables for secrets (e.g., `SECRET_KEY` in `auth.py`).
