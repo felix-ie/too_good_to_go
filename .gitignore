@@ -1,6 +1,6 @@
 # .gitignore
 venv/
-too_good_to_go.db
+food_app.db
 __pycache__/
 *.pyc
 *.pyo
