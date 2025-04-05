@@ -1,0 +1,10 @@
+# .gitignore
+venv/
+food_app.db
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+*.log
