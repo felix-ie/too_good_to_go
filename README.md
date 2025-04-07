@@ -1,6 +1,6 @@
 # Food App - A Too Good To Go Inspired API
 ## Description
-Developed by Hyunjin, this FastAPI-based web application is inspired by Too Good To Go, designed to bridge the gap between shops with surplus food and customers seeking affordable deals. Shops can register to list their food items with original and discounted prices, while customers can browse shops, place orders with quantities, pay with validation, and pick up using unique codes. The app features robust role-based access control (super admin, admin, shop, customer) and includes order management, payment processing, and real-time stock updates.
+Developed by Felix, this FastAPI-based web application is inspired by Too Good To Go, designed to bridge the gap between shops with surplus food and customers seeking affordable deals. Shops can register to list their food items with original and discounted prices, while customers can browse shops, place orders with quantities, pay with validation, and pick up using unique codes. The app features robust role-based access control (super admin, admin, shop, customer) and includes order management, payment processing, and real-time stock updates.
 ### Features
 - **User Roles**: Super Admin (manage users), Admin (manage admins/products), Shop (list items), Customer (order food).
 - **Shop Management**: List and manage food items with stock tracking.
@@ -15,17 +15,17 @@ Developed by Hyunjin, this FastAPI-based web application is inspired by Too Good
 ## Installation
 Follow these steps to set up the project on your operating system.
 ### On Windows
-1. **Clone the Repository**: `git clone https://github.com/hyunjin-9/too_good_to_go.git && cd too_good_to_go`
+1. **Clone the Repository**: `git clone https://github.com/felix-ie/too_good_to_go.git && cd too_good_to_go`
 2. **Create a Virtual Environment**: `python -m venv venv && venv\Scripts\activate`
 3. **Install Dependencies**: `pip install -r requirements.txt`
 4. **Run the Application**: `uvicorn app.main:app --reload` (visit `http://127.0.0.1:8000/docs`)
 ### On macOS
-1. **Clone the Repository**: `git clone https://github.com/hyunjin-9/too_good_to_go.git && cd too_good_to_go`
+1. **Clone the Repository**: `git clone https://github.com/felix-ie/too_good_to_go.git && cd too_good_to_go`
 2. **Create a Virtual Environment**: `python3 -m venv venv && source venv/bin/activate`
 3. **Install Dependencies**: `pip install -r requirements.txt`
 4. **Run the Application**: `uvicorn app.main:app --reload` (visit `http://127.0.0.1:8000/docs`)
 ### On Linux
-1. **Clone the Repository**: `git clone https://github.com/hyunjin-9/too_good_to_go.git && cd too_good_to_go`
+1. **Clone the Repository**: `git clone https://github.com/felix-ie/too_good_to_go.git && cd too_good_to_go`
 2. **Create a Virtual Environment**: `python3 -m venv venv && source venv/bin/activate`
 3. **Install Dependencies**: `pip install -r requirements.txt`
 4. **Run the Application**: `uvicorn app.main:app --reload` (visit `http://127.0.0.1:8000/docs`)
